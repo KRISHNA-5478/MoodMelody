@@ -1,83 +1,90 @@
-# MoodMelody - AI-Powered Music Recommendation Chatbot
+🎵 MoodMelody – AI-Powered Music Recommendation Chatbot
+MoodMelody is an intelligent chatbot that analyzes your emotions through natural conversation and recommends music that resonates with your current mood. By leveraging sentiment analysis and NLP, MoodMelody delivers a deeply personalized music discovery experience.
 
-MoodMelody is an intelligent chatbot that analyzes your emotions through conversation and recommends music that matches your mood. Using sentiment analysis and natural language processing, it creates a personalized music experience.
+✨ Features
+🎭 Emotion Analysis – Detects your emotional tone using natural language processing
 
-## Features
+🎧 Personalized Music Recommendations – Suggests Spotify playlists tailored to your mood
 
-- **Emotion Analysis**: Analyzes text to determine your emotional state
-- **Personalized Music Recommendations**: Suggests Spotify playlists based on detected emotions
-- **Interactive Chat Interface**: User-friendly chat interface with real-time responses
-- **Dark/Light Mode**: Toggle between dark and light themes
-- **Responsive Design**: Works on desktop and mobile devices
-- **Mood History**: Tracks your mood changes over time
-- **Playlist Sharing**: Easily share playlists on social media
+💬 Interactive Chat Interface – Real-time chatbot powered by conversational AI
 
-## Tech Stack
+🌓 Dark/Light Mode – Toggle between themes for visual comfort
 
-- **Frontend**: HTML, CSS, JavaScript, jQuery
-- **Backend**: Flask (Python)
-- **NLP**: TextBlob for sentiment analysis
-- **Music API**: Spotify Web API
-- **LLM Integration**: Ollama API for conversational responses
+📱 Responsive Design – Optimized for both desktop and mobile devices
 
-## Installation
+📊 Mood History – Tracks mood changes over time
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/KRISHNA-5478/MoodMelody.git
-   cd MoodMelody
-   ```
+🔗 Playlist Sharing – Share music with friends on social platforms
 
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+🛠️ Tech Stack
+Frontend: HTML, CSS, JavaScript, jQuery
 
-3. Set up environment variables (if needed):
-   ```
-   cp .env.example .env
-   # Edit .env with your API keys
-   ```
+Backend: Flask (Python)
 
-4. Run the application:
-   ```
-   python app.py
-   ```
+NLP: TextBlob for sentiment analysis
 
-5. Open your browser and navigate to:
-   ```
-   http://localhost:5000
-   ```
+Music API: Spotify Web API
 
-## Usage
+LLM Integration: Ollama API for intelligent chatbot responses
 
-1. Type how you're feeling in the chat input
-2. MoodMelody will analyze your emotions and respond
-3. Click "Get Music" to receive playlist recommendations
-4. Open the playlist in Spotify to start listening
-5. Share your playlist with friends if you enjoy it
+🚀 Installation
+Clone the repository:
+git clone https://github.com/KRISHNA-5478/MoodMelody.git
 
-## Dependencies
+cd MoodMelody
 
-- Flask==2.2.3
-- textblob==0.17.1
-- requests==2.28.2
-- gunicorn==20.1.0
-- python-dotenv==1.0.0
-- nltk==3.8.1
+Install the dependencies:
+pip install -r requirements.txt
 
-## Author
+Configure environment variables:
+cp .env.example .env
 
-- [KRISHNA-5478](https://github.com/KRISHNA-5478)
-- [Mohinisri123] (https://github.com/mohinisri23)
+python app.py
+Visit in browser:
+http://localhost:5000
+💡 How to Use
+Type how you're feeling in the chatbox
 
+MoodMelody will analyze your sentiment and reply accordingly
 
-## License
+Click “Get Music” for playlist recommendations
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+Open the playlist in Spotify and start listening
 
-## Acknowledgments
+Share your mood-matched playlist with friends 🎶
 
-- Spotify for providing the music API
-- TextBlob for sentiment analysis capabilities
-- Font Awesome for the icons used in the UI"# MoodMelody" 
+📦 Dependencies
+Flask==2.2.3
+
+textblob==0.17.1
+
+requests==2.28.2
+
+gunicorn==20.1.0
+
+python-dotenv==1.0.0
+
+nltk==3.8.1
+
+👥 Authors & Contributors
+Krishna Tripathi (KRISHNA-5478)
+
+Mohini Sri (Mohinisri123)
+
+Manas Gupta
+
+MnuRaj Singh
+
+Special thanks to all contributors for their amazing work on this collaborative project!
+
+📜 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+🙏 Acknowledgments
+Spotify – for the music streaming API
+
+TextBlob – for enabling sentiment detection
+
+Font Awesome – for elegant icons
+
+Ollama – for enhancing conversation quality through LLM integration
