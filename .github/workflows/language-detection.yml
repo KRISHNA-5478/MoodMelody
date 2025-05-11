@@ -1,0 +1,23 @@
+name: Language Detection
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Set repository language statistics
+      uses: github/linguist@v7
+      with:
+        override: |
+          *.py linguist-language=Python
+          *.html linguist-language=HTML
+          *.css linguist-language=CSS
+          *.js linguist-language=JavaScript
