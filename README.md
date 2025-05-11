@@ -80,4 +80,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Spotify for providing the music API
 - TextBlob for sentiment analysis capabilities
-- Font Awesome for the icons used in the UI
+- Font Awesome for the icons used in the UI"# MoodMelody" 
