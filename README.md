@@ -68,8 +68,11 @@ MoodMelody is an intelligent chatbot that analyzes your emotions through convers
 
 ## Author
 
-- [KRISHNA-5478](https://github.com/KRISHNA-5478)
-- [Mohinisri123] (https://github.com/mohinisri23)
+- Krishna Tripathi
+- Mohini Srivastava
+- Manas Gupta
+- ManuRaj Singh
+
 
 
 ## License
